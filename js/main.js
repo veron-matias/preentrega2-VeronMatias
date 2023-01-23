@@ -49,7 +49,7 @@ function buscarApellido (apellido){
         return elem.apellido===datobuscado
         })
         if(resultado===-1){
-            alert(apellido+": No fue encontrado. Intenelo nuevamente");
+            alert(apellido+": No fue encontrado. Intentelo nuevamente");
         }else{
         console.table(alumno[resultado]);
         console.log(alumno[resultado]);
